@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  height:100%;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+header{
+  height: 50px;
+  width: 250%;
+  background-color: pink;
+  line-height: 30px;
+}
+header ul{
+  
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  list-style: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+header ul li{
+  text-align: center;
+  
+}
+header ul li a{
+  text-decoration: none;
+  color: white;
+}
+header ul li:hover{
+  background-color: darksalmon;
+  
+}
+.list{
+  display: block;
+  margin-top: 20px;
+  position: absolute;
+  line-height: 30px;
+  display: ;
+  background-color: rosybrown;
+}
+.list li{
+  text-align: centre;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.list li:hover{
+  background-color: hotpink;
+}
+.drop-down{
+  display: block;
+  margin-top: 10px;
+  position: absolute;
+  line-height: 30px;
+  display: ;
+  
+}
+.drop-down li{
+  text-align: centre;
+  padding: 10px;
+  font-size: 15px;
+  position: relative;
+  left: 70px;
+  background-color: mediumpurple;
+}
+.drop-down li:hover{
+  background-color: mediumspringgreen;
+  
+}
+.mn{
+  display: block;
+  margin-top: 10px;
+  position: absolute;
+  line-height: 30px;
+  display: ;
+  
+}
+.mn li{
+  text-align: center;
+  padding: 5px;
+  background-color: darkseagreen;
+}
+.mn li:hover{
+  background-color: indianred;
+  
+}

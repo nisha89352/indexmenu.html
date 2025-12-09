@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #e7dfda;
+            margin: 0px;
+        }
+
+        .bio {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 250px;
+            padding: 50px;
+            font-weight: bold;
+        }
+
+        .bio div {
+            margin: 0px;
+        }
+
+        .card {
+            width: 60%;
+            margin: auto;
+            background: #f5eee9;
+            border: 2px solid #8d654c;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: left;
+            padding: 40px;
+            margin-top: 20px;
+        }
+
+        .left {
+            width: 55%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .left h1 {
+            font-size: 70px;
+            margin-top: 0px;
+            padding: 0px;
+        }
+
+        .left p {
+            font-size: 20px;
+            margin-top: 5px;
+            margin-bottom: 150px;
+            line-height: 1.6;
+        }
+
+        .username-social {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .username {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 0px;
+        }
+
+        .social {
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+
+        .social i {
+            margin-top: 10px;
+            font-size: 25px;
+        }
+
+        .right img {
+            width: 450px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bio">
+        <div>BIO</div>
+        <div>PORTFOLIO</div>
+        <div>PODCAST</div>
+        <div>BLOG</div>
+    </div>
+    <div class="card">
+
+        <div class="left">
+            <h1>Bethany Jones</h1>
+            <p>I'm a dedicated culture critic and blogger <br>
+                located in San Francisco, California.</p>
+            <div class="username-social">
+                <span class="username">@reallygreatsite</span>
+
+                <div class="social">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="image/image.png.jpeg">
+        </div>
+    </div>
+</body>
+
+</html>
